@@ -1,9 +1,5 @@
-StringBuilder
-=============
+﻿/// <reference path="../src/StringBuilder.js" />
 
-A javascript StringBuilder will be chosing a fast way to run string concat.
-
-unit test
 
 test("simple", function () {
     var sb = new StringBuilder();
