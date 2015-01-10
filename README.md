@@ -4,7 +4,7 @@ StringBuilder
 A javascript StringBuilder will be chosing a fast way to run string concat.
 
 unit test
-    
+```js
     var sb = new StringBuilder();
     sb.append("a").append("b");
     sb.appends("a","b");
@@ -14,3 +14,4 @@ unit test
     console.log(sb.toString());
     sb.clear();
     
+```
